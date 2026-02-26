@@ -1,0 +1,258 @@
+body {
+    background-image: url(https://scwcontent.affino.com/AcuCustom/Sitename/DAM/008/specialreports0june2017-transport-airporttravel.jpg);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 50;
+}
+
+.container {
+    background-image: url(https://webcmstavtech.tav.aero/uploads/59f9875dc0e79a3594308ad3/static-pages/main-images/rms-products-services_1.jpg);
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.addcontainer {
+    background-image: url(https://webcmstavtech.tav.aero/uploads/59f9875dc0e79a3594308ad3/static-pages/main-images/rms-products-services_1.jpg);
+    padding: 30px;
+    width: 420px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.getallcontainer{
+    background-image: url(https://webcmstavtech.tav.aero/uploads/59f9875dc0e79a3594308ad3/static-pages/main-images/rms-products-services_1.jpg);
+    padding: 30px;
+    width: 420px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.getbyidcontainer{
+    background-image: url(https://webcmstavtech.tav.aero/uploads/59f9875dc0e79a3594308ad3/static-pages/main-images/rms-products-services_1.jpg);
+    padding: 30px;
+    width: 420px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.updatebyidcontainer{
+    background-image: url(https://webcmstavtech.tav.aero/uploads/59f9875dc0e79a3594308ad3/static-pages/main-images/rms-products-services_1.jpg);
+    padding: 30px;
+    width: 420px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.updatecontainer{
+    background-image: url(https://webcmstavtech.tav.aero/uploads/59f9875dc0e79a3594308ad3/static-pages/main-images/rms-products-services_1.jpg);
+    padding: 30px;
+    width: 420px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+h1 {
+    margin-bottom: 25px;
+    color:black;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    font-size: 2.5rem;
+}
+
+.button-group {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 12px 18px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #e0e0e0;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    background: #d5d5d5;
+}
+
+.primary {
+    background: #4CAF50;
+    color: white;
+}
+
+.primary:hover {
+    background:darkolivegreen;
+}
+
+.warning {
+    background: #ff9800;
+    color: white;
+}
+.warning:hover{
+    color: black;
+    background-color:aquamarine;
+}
+
+.danger {
+    background: #f44336;
+    color: white;
+}
+.danger:hover{
+color: black;
+background-color: brown;
+}
+.getall{
+    background-color: cadetblue;
+    color: white;
+}
+.back{
+    background-color: red;
+    color: white;
+}
+
+.getall:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.getbyid{
+    background-color: cadetblue;
+    color: white;
+}
+
+.getbyid:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.Add{
+    background-color: cadetblue;
+    color: white;
+}
+
+.Add:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.submitPassenger{
+    color: black;
+}
+#passengerName {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.6rem 1rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+#passengerAge {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.6rem 1rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+#passengerCnic {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.6rem 1rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+#passengerFare {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.6rem 1rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+#passengerDestination {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.6rem 1rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+#passengerGender {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.6rem 1rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+#passengerPhone {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.6rem 1rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+#passengersList {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    z-index: 10;
+}
+
+#passengersList table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#passengersList th, #passengersList td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+#passengersList th {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+#idInput{
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 0.6rem 1rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+#passengerbyid table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    table-layout: fixed;
+}
+#passengerbyid th{
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+#passengersbyid td{
+    background-color: rgba(255, 255, 255, 1);
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+#passengerbyid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
