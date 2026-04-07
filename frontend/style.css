@@ -228,7 +228,7 @@ background-color: brown;
     width: 100%;
     border-collapse: collapse;
     font-family: Arial, sans-serif;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 20px rgba(231, 224, 224, 0.5);
     border-radius: 10px;
     overflow: hidden;
     table-layout: fixed;

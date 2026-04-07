@@ -15,15 +15,20 @@
             <input type="text" id="passengerCnic" placeholder="Enter your CNIC">
         </div>
         <div>
-            <input type="number" id="passengerAge" placeholder="Enter your Age">
-            <input type="text" id="passengerGender" placeholder="Enter your Gender">
+            <input type="number" id="passengerAge" placeholder="Enter your Age" min="1" max="100">
+            <select id="passengerGender">
+                <option value="">-- Select Gender --</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
         </div>
         <div>
             <input type="text" id="passengerDestination" placeholder="Enter your Destination">
-            <input type="number" id="passengerFare" placeholder="Enter your Fare">
+            <input type="number" id="passengerFare" placeholder="Enter your Fare" >
         </div>
         
-        <input type="number" id="passengerPhone" placeholder="Enter your Phone Number">
+        <input type="tel" id="passengerPhone" placeholder="Enter your Phone Number" pattern="[0-9]{11}" required>
         
         <div>
             <button id="submitPassenger">Submit</button>

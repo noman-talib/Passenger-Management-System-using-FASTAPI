@@ -1,7 +1,13 @@
 const getbyidbutton = document.querySelector(".getbyid");
 getbyidbutton.addEventListener("click", async function(){
+    const idInput  = document.querySelector("#idInput");
+    const id = idInput.value;
+    if (!idInput.value.trim()){
+            idInput.setCustomValidity("Please enter an Id first");
+            idInput.reportValidity();
+            return
+        }
     try{
-    const id  = document.querySelector("#idInput").value;
     const response = await fetch(`http://127.0.0.1:8000/Passengers/${id}`);
     const data = await response.json();
     document.querySelector(".getbyidcontainer").style.display = "none";
