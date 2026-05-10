@@ -1,3 +1,6 @@
+from pydantic import BaseModel, field_validator
+from typing import Optional
+
 class FlightCreate(BaseModel):
     flight_no:str
     plane_no:str

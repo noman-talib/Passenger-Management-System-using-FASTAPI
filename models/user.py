@@ -11,5 +11,5 @@ class User(Base):
     cnic = Column(String)
     age = Column(Integer)
     gender = Column(String)
-    phone_number = Column(Integer)
+    phone_number = Column(String)
     role = Column(String, default="passenger")

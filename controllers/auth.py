@@ -19,7 +19,7 @@ def register(user_data: UserCreate, db: Session = Depends(get_db)):
         age = user_data.age,
         gender = user_data.gender,
         cnic = user_data.cnic,
-        phone = user_data.phone_number,
+        phone_number = user_data.phone_number,
         role = user_data.role
     )
     db.add(new_user)
