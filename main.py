@@ -6,7 +6,7 @@ from passenger import Passenger as Passengerdb
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
 
-engine = create_engine('sqlite:///passengers.db')
+engine = create_engine('sqlite:///flightmanagementsystem.db')
 Base.metadata.create_all(bind=engine)
 app = FastAPI()
 

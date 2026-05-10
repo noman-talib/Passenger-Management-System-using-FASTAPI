@@ -1,9 +1,13 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
+from dotenv import load_dotenv
+import os
 
-engine = create_engine('sqlite:///passengers.db')
+load_dotenv()
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+engine = create_engine(DATABASE_URL)
 Base = declarative_base()
-
 mysession = sessionmaker(bind=engine)
 
 def get_db():

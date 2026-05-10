@@ -1,3 +1,7 @@
+from sqlalchemy import Integer, Column, String, ForeignKey
+from sqlalchemy.orm import relationship
+from db_connection import Base
+
 class Flights(Base):
     __tablename__ = "flights"
     id = Column(Integer, primary_key=True)
